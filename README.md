@@ -1,15 +1,15 @@
 <h3>Red Dot Task</h3>
-- git clone https://github.com/Zin-Zin/red-dot-task.git
-- composer install
-- change database, username, password in .env
-- php artisan migrate
-- php artisan db:seed 
--   ## Instruction for Database seeder
-        - Q: Do you wish to refresh migration before seeding, Make sure it will clear all old data ? (yes/no) [no]:
-            -> yes
-        - Q: Create Roles for users, default is admin and users? 
-            -> yes
-        - Q: Enter roles in comma separate format. [Admin,User]:
-            -> example : Admin, User, Director, Manager
-        - You'll get Username & password.
+- git clone https://github.com/Zin-Zin/red-dot-task.git <br>
+- composer install <br>
+- change database, username, password in .env <br>
+- php artisan migrate <br>
+- php artisan db:seed <br>
+-   ## <h4>Instruction for Database seeder </h4><br>
+        - Q: Do you wish to refresh migration before seeding, Make sure it will clear all old data ? (yes/no) [no]: <br>
+            -> yes <br>
+        - Q: Create Roles for users, default is admin and users? <br>
+            -> yes <br>
+        - Q: Enter roles in comma separate format. [Admin,User]: <br>
+            -> example : Admin, User, Director, Manager <br>
+        - You'll get Username & password. <br>
         - Then you can login with Admin account.
